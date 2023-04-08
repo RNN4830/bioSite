@@ -1,0 +1,73 @@
+/*Rachel Nelson
+Assignment bioSite about me css
+04/02/23*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #F87866;
+  color: white;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.column1 img,
+.column3 img {
+  width: 50%;
+  height: auto;
+}
+.column1 p,
+.column3 p {
+  text-align: center;
+  margin-top: 1rem;
+}
+.column1,
+.column2,
+.column3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.column2 img {
+  width: 70%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+.column2 p {
+  text-align: center;
+  margin-top: 1rem;
+}
+.column1,
+.column2,
+.column3{
+  flex: 1;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
