@@ -1,12 +1,25 @@
 /*Rachel Nelson
 Assignment bioSite index css
-04/02/23*/
+04/15/23*/
 body{
-  background-color: #F87866;
+  background-color: #FBACA1;
 }
+
 img {
-  width: 75%;
+  width: 50%;
   height: auto;
+  border-radius: 20px;
+}
+.image-frame {
+  background-image: url("images/watermelon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .row {
@@ -16,7 +29,6 @@ img {
   flex: 70%;
   padding: 10px;
 }
-/* Style the "Cora" heading */
 h1 {
   font-size: 125px;
   font-family: Kristen ITC, cursive;
@@ -24,23 +36,24 @@ h1 {
   padding: 20px;
   margin-top: 200px;
   text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
-
-/* Style the buttons */
 button {
   display: block;
   width: 130px;
   padding: 10px;
   font-size: 24px;
   font-family: Arial, sans-serif;
-  color: #fff;
+  color: white;
   background-color: transparent;
   border: none;
   border-radius: 5px;
   margin-bottom: 10px;
   margin: 0 auto;
   text-decoration: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
+
 button:first-of-type {
   margin-bottom: 20px;
 }
@@ -49,20 +62,19 @@ button:hover {
   background-image: radial-gradient(black 15%, transparent 16%), radial-gradient(black 15%, transparent 16%);
   background-size: 20px 20px;
   background-position: 0 0, 10px 10px;
-  border: 1px solid black;
+  border: 1px solid #A1FBAC;
+  text-decoration: none;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 button:active {
   background-color: black;
   color: #fff;
 }
-/* Style the image */
 img {
   width: 75%;
   height: auto;
 }
-
-/* Style the text under the image */
 p {
   font-size: 18px;
   font-family: Arial, sans-serif;
