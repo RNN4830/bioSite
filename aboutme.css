@@ -1,16 +1,19 @@
 /*Rachel Nelson
 Assignment bioSite about me css
-04/02/23*/
+04/15/23*/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
+  background-color: #FEEDEA
 }
 
 header {
-  background-color: #F87866;
+  font-family: Kristen ITC, cursive;
+  font-weight: 800;
+  background-color: #FBACA1;
   color: white;
   padding: 20px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 nav ul {
@@ -67,8 +70,12 @@ nav a {
   flex: 1;
 }
 footer {
-  background-color: #333;
+  font-family: Kristen ITC, cursive;
+  background-color: #FBACA1;
   color: #fff;
   text-align: center;
   padding: 1rem;
+  bottom: 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
+
