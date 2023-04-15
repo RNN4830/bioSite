@@ -1,16 +1,16 @@
 /*Rachel Nelson
 Assignment bioSite hobbies css
-04/02/23*/
+04/15/23*/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
 }
 
 header {
-  background-color: #F87866;
+  font-family: Kristen ITC, cursive;
+  background-color: #FBACA1;
   color: white;
   padding: 20px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 nav ul {
@@ -50,7 +50,8 @@ img {
 }
 
 footer {
-  background-color: #333;
+  font-family: Kristen ITC, cursive;
+  background-color: #FBACA1;
   color: white;
   padding: 10px;
   text-align: center;
