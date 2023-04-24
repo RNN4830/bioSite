@@ -12,7 +12,7 @@ img {
   border-radius: 20px;
 }
 .image-frame {
-  background-image: url("images/watermelon4.png");
+  background-image: url("images/watermelon.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: fit-content;
