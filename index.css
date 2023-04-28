@@ -1,6 +1,3 @@
-/*Rachel Nelson
-Assignment bioSite index css
-04/15/23*/
 body{
   background: rgb(214,64,86);
   background: radial-gradient(circle, rgba(214,64,86,1) 0%, rgba(196,244,207,1) 100%);
@@ -11,8 +8,9 @@ img {
   height: auto;
   border-radius: 20px;
 }
+
 .image-frame {
-  background-image: url("images/watermelon.png");
+  background-image: url("images/watermelon4.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: fit-content;
@@ -26,10 +24,12 @@ img {
 .row {
   display: flex;
 }
+
 .column {
   flex: 70%;
   padding: 10px;
 }
+
 h1 {
   font-size: 125px;
   font-family: Kristen ITC, cursive;
@@ -39,6 +39,7 @@ h1 {
   text-align: center;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 2);
 }
+
 button {
   display: block;
   width: 130px;
@@ -59,6 +60,7 @@ button {
 button:first-of-type {
   margin-bottom: 20px;
 }
+
 button:hover {
   background-color: #d64056;
   background-image: radial-gradient(black 15%, transparent 16%), radial-gradient(black 15%, transparent 16%);
@@ -79,9 +81,11 @@ img {
   width: 75%;
   height: auto;
 }
+
 p {
   font-size: 18px;
   font-family: Arial, sans-serif;
   color: #333;
   margin-top: 20px;
 }
+
